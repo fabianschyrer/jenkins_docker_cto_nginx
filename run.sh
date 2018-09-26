@@ -6,6 +6,6 @@ docker run --publish 443:443 --publish 80:80 \
   --name nginx-jenkins-cto  \
   --network="jenkins-network" \
   --detach \
-  fabianschyrer/jenkins.docker.cto.nginx:latest
+  jenkins.docker.cto.nginx:latest
 
 
