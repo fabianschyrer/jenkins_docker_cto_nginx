@@ -7,5 +7,3 @@ docker run --publish 443:443 --publish 80:80 \
   --network="jenkins-network" \
   --detach \
   jenkins.docker.cto.nginx:latest
-
-
